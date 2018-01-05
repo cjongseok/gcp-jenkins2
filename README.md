@@ -1,7 +1,7 @@
 gcp-jenkins2
 ====
 
-Google Cloud SDK enabled Jenkins2 Docker image based on launcher.gcr.io/google/jenkins2.
+Google Cloud SDK enabled Jenkins2 Docker image based on the Jenkins2 image of [Google Cloud Laucher](https://console.cloud.google.com/launcher/details/google/jenkins2).
 
 For now, it has a size issue;
 * launcher.gcr.io/google/jenkins2: 490MB
