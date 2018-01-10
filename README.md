@@ -16,6 +16,13 @@ Pull and run the docker image from [Docker Hub](https://hub.docker.com/r/cjongse
 docker pull cjongseok/gcp-jenkins2:latest
 docker run -d -p 8080:8080 -p 50000:50000 --name jenkins2 cjongseok/gcp-jenkins2:latest 
 ```
+Or run Jenkins on Kubernetes.
+```sh
+# Create a Deploy
+kubectl create -f jenkins.yml
+# Create a Service
+kubectl create -f jenkins-service.yml
+```
 
 #### Ports
 * 8080: web UI
